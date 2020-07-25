@@ -5,6 +5,7 @@ $color-dark: #000;
 $color-buttons: #fed136;
 $color-darker: #222222;
 $color-grey: #777777;
+$color-background: #f7f7f7;
 
 $font-montserrat: 'Montserrat', sans-serif;
 $font-droid: 'Noto Serif', serif;
@@ -62,6 +63,12 @@ h1 {
 
 h4 {
   margin: 0;
+}
+
+section {
+  // padding-top: 60px;
+  // padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 /* header */
@@ -153,10 +160,10 @@ header .row {
 
 /* Services */
 
-.services {
-  padding-top: 60px;
-  padding-bottom: 118px;
-}
+// .services {
+//   padding-top: 60px;
+//   padding-bottom: 118px;
+// }
 
 .fa-shopping-basket, .fa-laptop-code, .fa-lock {
     width: 67px;
@@ -187,4 +194,36 @@ header .row {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: -0.35px;
+}
+
+/* Portfolio */
+
+.portfolio {
+  background-color: $color-background;
+  padding-top: 120px;
+}
+
+.photo-description {
+  padding: 29px 16px 27px 16px;
+  background-color: $color-light;
+}
+
+.portfolio img {
+  width: 100%;
+  display: block;
+}
+
+.word {
+  color: #737373;
+  font-family: $font-droid;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.portfolio .row {
+  padding-bottom: 50px;
+}
+
+.portfolio h4 {
+  height: 30px;
 }

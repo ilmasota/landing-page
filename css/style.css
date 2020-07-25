@@ -54,6 +54,10 @@ h4 {
   margin: 0;
 }
 
+section {
+  padding: 120px 0;
+}
+
 /* header */
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.postimg.cc/TYLgqtTD/Background-Image.png);
@@ -139,11 +143,6 @@ header .row {
 }
 
 /* Services */
-.services {
-  padding-top: 60px;
-  padding-bottom: 118px;
-}
-
 .fa-shopping-basket, .fa-laptop-code, .fa-lock {
   width: 67px;
   height: 67px;
@@ -173,5 +172,36 @@ header .row {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: -0.35px;
+}
+
+/* Portfolio */
+.portfolio {
+  background-color: #f7f7f7;
+  padding-top: 120px;
+}
+
+.photo-description {
+  padding: 29px 16px 27px 16px;
+  background-color: #fff;
+}
+
+.portfolio img {
+  width: 100%;
+  display: block;
+}
+
+.word {
+  color: #737373;
+  font-family: "Noto Serif", serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.portfolio .row {
+  padding-bottom: 50px;
+}
+
+.portfolio h4 {
+  height: 30px;
 }
 /*# sourceMappingURL=style.css.map */
