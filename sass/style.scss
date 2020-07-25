@@ -2,9 +2,13 @@
 
 $color-light: #fff;
 $color-dark: #000;
+$color-buttons: #fed136;
+$color-darker: #222222;
+$color-grey: #777777;
 
 $font-montserrat: 'Montserrat', sans-serif;
 $font-droid: 'Noto Serif', serif;
+$font-roboto: 'Roboto Slab', serif;
 
 /* Global */
 
@@ -24,9 +28,39 @@ body {
 .row {
   flex-wrap: wrap;
   justify-content: space-between;
+  text-align: center;
 }
 
 p {
+  margin: 0;
+  text-align: center;
+}
+
+.section-title {
+  text-align: center;
+  color: $color-darker;
+  font-family: $font-montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.subsection-title {
+  text-align: center;
+  color: $color-darker;
+  font-family: $font-montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+h1 {
+  margin: 0;
+}
+
+h4 {
   margin: 0;
 }
 
@@ -35,11 +69,9 @@ p {
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.postimg.cc/TYLgqtTD/Background-Image.png);
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center;
   background-size: cover;
-  height: 700px;
-  width: 1400px;
-  margin-left: 92px;
+  height: 100%;
   text-align: center;
 }
 
@@ -107,8 +139,6 @@ header .row {
 }
 
 .btn {
-  // width: 240px;
-  // height: 65px;
   display: inline-block;
   background-color: #fed136;
   color: $color-light;
@@ -119,4 +149,42 @@ header .row {
   padding: 12px 45px;
   border-radius: 4px;
   text-decoration: none;
+}
+
+/* Services */
+
+.services {
+  padding-top: 60px;
+  padding-bottom: 118px;
+}
+
+.fa-shopping-basket, .fa-laptop-code, .fa-lock {
+    width: 67px;
+    height: 67px;
+    border: 3px solid #fed136;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 60px;
+    color: #fed136;
+    background-color: $color-light;
+}
+
+.sub-title {
+  color: $color-grey;
+  font-family: $font-droid;
+  font-size: 16px;
+  font-style: italic;
+  padding-bottom: 60px;
+}
+
+.services .subsection-title {
+  padding-top: 10px;
+}
+
+.description {
+  color: $color-grey;
+  font-family: $font-roboto;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.35px;
 }
