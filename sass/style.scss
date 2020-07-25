@@ -66,9 +66,11 @@ h4 {
 }
 
 section {
-  // padding-top: 60px;
-  // padding-bottom: 120px;
   padding: 120px 0;
+}
+
+ul {
+  padding: 0;
 }
 
 /* header */
@@ -160,11 +162,6 @@ header .row {
 
 /* Services */
 
-// .services {
-//   padding-top: 60px;
-//   padding-bottom: 118px;
-// }
-
 .fa-shopping-basket, .fa-laptop-code, .fa-lock {
     width: 67px;
     height: 67px;
@@ -226,4 +223,52 @@ header .row {
 
 .portfolio h4 {
   height: 30px;
+}
+
+/* Footer */
+
+.copyright {
+  color: #555555;
+  font-family: $font-montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.35px;
+  padding-right: 50px;
+}
+
+footer {
+  text-align: center;
+}
+
+.social-media, .copyright {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer .row {
+  margin: 0;
+}
+
+.fab {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: $color-darker;
+  font-size: 20px;
+  color: $color-light;
+  border-radius: 50%;
+}
+
+footer .row {
+  align-items: center;
 }

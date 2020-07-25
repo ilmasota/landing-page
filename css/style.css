@@ -58,6 +58,10 @@ section {
   padding: 120px 0;
 }
 
+ul {
+  padding: 0;
+}
+
 /* header */
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.postimg.cc/TYLgqtTD/Background-Image.png);
@@ -203,5 +207,53 @@ header .row {
 
 .portfolio h4 {
   height: 30px;
+}
+
+/* Footer */
+.copyright {
+  color: #555555;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.35px;
+  padding-right: 50px;
+}
+
+footer {
+  text-align: center;
+}
+
+.social-media, .copyright {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer .row {
+  margin: 0;
+}
+
+.fab {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #222222;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 50%;
+}
+
+footer .row {
+  -ms-flex-align: center;
+      align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
