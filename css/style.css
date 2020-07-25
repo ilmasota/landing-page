@@ -218,9 +218,12 @@ header .row {
   line-height: 22px;
   letter-spacing: -0.35px;
   padding-right: 50px;
+  padding: 13px 0;
 }
 
 footer {
+  padding: 40px 0;
+  width: 100%;
   text-align: center;
 }
 
@@ -250,10 +253,5 @@ footer .row {
   font-size: 20px;
   color: #fff;
   border-radius: 50%;
-}
-
-footer .row {
-  -ms-flex-align: center;
-      align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
