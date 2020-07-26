@@ -55,6 +55,9 @@ p {
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
+  @media (max-width: 768px){
+    padding-bottom: 10px;
+  }
 }
 
 h1 {
@@ -88,7 +91,7 @@ header {
 
 .company-logo img {
   padding-top: 45px;
-  padding-left: 238px;
+  // padding-left: 238px;
 }
 
 
@@ -96,7 +99,7 @@ header {
 
 .menu ul {
   padding-top: 51px;
-  padding-left: 220px;
+  // padding-left: 220px;
   margin: 0;
   list-style-type: none;
 }
@@ -215,6 +218,9 @@ header .row {
   font-family: $font-droid;
   font-size: 14px;
   font-style: italic;
+  @media (max-width: 768px){
+    padding-top: 20px;
+  }
 }
 
 .portfolio .row {
