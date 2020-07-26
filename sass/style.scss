@@ -11,6 +11,8 @@ $font-montserrat: 'Montserrat', sans-serif;
 $font-droid: 'Noto Serif', serif;
 $font-roboto: 'Roboto Slab', serif;
 
+$transition: all 1s;
+
 /* Global */
 
 *, *::before, *::after {
@@ -117,6 +119,11 @@ header {
   line-height: 41px;
   font-family: $font-montserrat;
   font-weight: 400;
+  transition: $transition;
+}
+
+.menu a:hover {
+  color: $color-buttons;
 }
 
 header .row {
@@ -137,6 +144,7 @@ header .row {
   font-size: 40px;
   font-style: italic;
   letter-spacing: -1px;
+  font-weight: normal;
 }
 
 .its-nice {

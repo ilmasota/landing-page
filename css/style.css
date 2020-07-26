@@ -103,6 +103,11 @@ header {
   line-height: 41px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  transition: all 1s;
+}
+
+.menu a:hover {
+  color: #fed136;
 }
 
 header .row {
@@ -124,6 +129,7 @@ header .row {
   font-size: 40px;
   font-style: italic;
   letter-spacing: -1px;
+  font-weight: normal;
 }
 
 .its-nice {
