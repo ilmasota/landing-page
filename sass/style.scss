@@ -95,6 +95,7 @@ header {
   background-size: cover;
   height: 100%;
   text-align: center;
+  position: relative;
 }
 
 /* Logo */
@@ -113,6 +114,9 @@ header {
 
 .menu li {
   margin-right: 20px;
+  @media (min-width: 150px) and (max-width: 490px) {
+    margin-right: 5px;
+  }
 }
 
 .menu a {
@@ -124,6 +128,10 @@ header {
   font-family: $font-montserrat;
   font-weight: 400;
   transition: $transition;
+  @media (min-width: 150px) and (max-width: 570px) {
+      font-size: 10px;
+      padding-bottom: 0;
+    }
 }
 
 .menu a:hover {
@@ -136,11 +144,27 @@ header .row {
   align-items: center;
 }
 
+.logo-menu {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
 .splash {
-  height: 620px;
+  align-items: center;
 }
 
 /* Welcome text */
+
+.welcome-text {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .welcome-to-our {
   color: $color-light;
@@ -149,6 +173,9 @@ header .row {
   font-style: italic;
   letter-spacing: -1px;
   font-weight: normal;
+  @media (max-width: 800px) {
+    font-size: 20px;
+  }
 }
 
 .its-nice {
@@ -160,6 +187,15 @@ header .row {
   letter-spacing: -1.88px;
   padding-top: 20px;
   padding-bottom: 50px;
+  @media (min-width: 277px) and (max-width: 800px) {
+    font-size: 37px;
+  }
+  @media (max-width: 276px) {
+    font-size: 25px;
+  }
+  @media (max-width: 570px) {
+    padding-bottom: 10px;
+  }
 }
 
 .btn {
