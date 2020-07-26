@@ -160,7 +160,7 @@ header .row {
 
 .btn {
   display: inline-block;
-  background-color: #fed136;
+  background-color: $color-buttons;
   color: $color-light;
   font-family: $font-montserrat;
   font-size: 18px;
@@ -169,6 +169,12 @@ header .row {
   padding: 12px 45px;
   border-radius: 4px;
   text-decoration: none;
+  transition: $transition;
+}
+
+.btn:hover {
+  color: $color-buttons;
+  background-color: $color-light;
 }
 
 /* Services */
@@ -219,6 +225,15 @@ header .row {
 .portfolio img {
   width: 100%;
   display: block;
+}
+
+div[class^="item-"] img {
+  transition: $transition;
+}
+
+div[class^="item-"]:hover img{
+  opacity: 0.5;
+  cursor: pointer;
 }
 
 .word {

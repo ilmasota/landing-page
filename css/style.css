@@ -154,6 +154,12 @@ header .row {
   padding: 12px 45px;
   border-radius: 4px;
   text-decoration: none;
+  transition: all 1s;
+}
+
+.btn:hover {
+  color: #fed136;
+  background-color: #fff;
 }
 
 /* Services */
@@ -202,6 +208,15 @@ header .row {
 .portfolio img {
   width: 100%;
   display: block;
+}
+
+div[class^="item-"] img {
+  transition: all 1s;
+}
+
+div[class^="item-"]:hover img {
+  opacity: 0.5;
+  cursor: pointer;
 }
 
 .word {
