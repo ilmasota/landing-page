@@ -72,6 +72,9 @@ h4 {
 
 section {
   padding: 120px 0;
+  @media (max-width: 768px){
+    padding: 40px 0;
+  }
 }
 
 ul {
@@ -208,13 +211,15 @@ header .row {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: -0.35px;
+  @media (max-width: 767px) {
+    padding-bottom: 20px;
+  }
 }
 
 /* Portfolio */
 
 .portfolio {
   background-color: $color-background;
-  padding-top: 120px;
 }
 
 .photo-description {
@@ -241,13 +246,16 @@ div[class^="item-"]:hover img{
   font-family: $font-droid;
   font-size: 14px;
   font-style: italic;
-  @media (max-width: 768px){
-    padding-top: 20px;
+  @media (max-width: 767px) {
+    padding-top: 0;
   }
 }
 
 .portfolio .row {
   padding-bottom: 50px;
+  @media (max-width: 767px) {
+    padding-bottom: 0;
+  }
 }
 
 .portfolio h4 {
@@ -271,6 +279,9 @@ footer {
   padding: 40px 0;
   width: 100%;
   text-align: center;
+  @media (max-width: 768px){
+    padding: 20px 0;
+  }
 }
 
 .social-media, .copyright {

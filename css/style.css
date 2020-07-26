@@ -64,6 +64,12 @@ section {
   padding: 120px 0;
 }
 
+@media (max-width: 768px) {
+  section {
+    padding: 40px 0;
+  }
+}
+
 ul {
   padding: 0;
 }
@@ -194,10 +200,15 @@ header .row {
   letter-spacing: -0.35px;
 }
 
+@media (max-width: 767px) {
+  .description {
+    padding-bottom: 20px;
+  }
+}
+
 /* Portfolio */
 .portfolio {
   background-color: #f7f7f7;
-  padding-top: 120px;
 }
 
 .photo-description {
@@ -226,14 +237,20 @@ div[class^="item-"]:hover img {
   font-style: italic;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .word {
-    padding-top: 20px;
+    padding-top: 0;
   }
 }
 
 .portfolio .row {
   padding-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  .portfolio .row {
+    padding-bottom: 0;
+  }
 }
 
 .portfolio h4 {
@@ -256,6 +273,12 @@ footer {
   padding: 40px 0;
   width: 100%;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 20px 0;
+  }
 }
 
 .social-media, .copyright {
