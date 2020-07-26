@@ -79,6 +79,11 @@ section {
 
 ul {
   padding: 0;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
 }
 
 /* header */
@@ -96,7 +101,6 @@ header {
 
 .company-logo img {
   padding-top: 45px;
-  // padding-left: 238px;
 }
 
 
@@ -104,14 +108,11 @@ header {
 
 .menu ul {
   padding-top: 51px;
-  // padding-left: 220px;
   margin: 0;
-  list-style-type: none;
 }
 
 .menu li {
   margin-right: 20px;
-  display: inline-block;
 }
 
 .menu a {
@@ -288,14 +289,6 @@ footer {
   display: block;
   width: 100%;
   margin: 0;
-}
-
-footer ul {
-  list-style-type: none;
-}
-
-footer li {
-  display: inline-block;
 }
 
 footer .row {

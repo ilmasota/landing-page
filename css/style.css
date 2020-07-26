@@ -72,6 +72,11 @@ section {
 
 ul {
   padding: 0;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
 }
 
 /* header */
@@ -93,12 +98,10 @@ header {
 .menu ul {
   padding-top: 51px;
   margin: 0;
-  list-style-type: none;
 }
 
 .menu li {
   margin-right: 20px;
-  display: inline-block;
 }
 
 .menu a {
@@ -285,14 +288,6 @@ footer {
   display: block;
   width: 100%;
   margin: 0;
-}
-
-footer ul {
-  list-style-type: none;
-}
-
-footer li {
-  display: inline-block;
 }
 
 footer .row {
