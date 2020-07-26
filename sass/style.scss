@@ -310,4 +310,10 @@ footer .row {
   font-size: 20px;
   color: $color-light;
   border-radius: 50%;
+  transition: $transition;
+}
+
+.fab:hover {
+  transform: scale(1.2, 1.2);
+  background-color: $color-buttons;
 }

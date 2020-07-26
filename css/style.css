@@ -307,5 +307,11 @@ footer .row {
   font-size: 20px;
   color: #fff;
   border-radius: 50%;
+  transition: all 1s;
+}
+
+.fab:hover {
+  transform: scale(1.2, 1.2);
+  background-color: #fed136;
 }
 /*# sourceMappingURL=style.css.map */
