@@ -81,7 +81,7 @@ li {
 
 /* header */
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.postimg.cc/TYLgqtTD/Background-Image.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background_image.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
