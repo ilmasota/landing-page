@@ -95,7 +95,9 @@ header {
   background-size: cover;
   height: 100%;
   text-align: center;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header .logo-menu {
@@ -153,30 +155,19 @@ header .row {
   margin: 0;
   justify-content: center;
   align-items: center;
-  // flex-direction: column;
 }
 
 .logo-menu {
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 100%;
 }
 
 .splash {
-  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
 }
 
 /* Welcome text */
-
-.welcome-text {
-  margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 .welcome-to-our {
   color: $color-light;
@@ -237,11 +228,11 @@ header .row {
 .fa-shopping-basket, .fa-laptop-code, .fa-lock {
     width: 67px;
     height: 67px;
-    border: 3px solid #fed136;
+    border: 3px solid $color-buttons;
     border-radius: 50%;
     font-size: 30px;
     line-height: 60px;
-    color: #fed136;
+    color: $color-buttons;
     background-color: $color-light;
 }
 

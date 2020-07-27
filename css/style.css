@@ -87,7 +87,12 @@ header {
   background-size: cover;
   height: 100%;
   text-align: center;
-  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -159,27 +164,19 @@ header .row {
 }
 
 .logo-menu {
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 100%;
 }
 
 .splash {
-  -ms-flex-align: center;
-      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex: 1;
+      flex: 1;
 }
 
 /* Welcome text */
-.welcome-text {
-  margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .welcome-to-our {
   color: #fff;
   font-family: "Noto Serif", serif;
