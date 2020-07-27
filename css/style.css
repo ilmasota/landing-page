@@ -189,7 +189,7 @@ header .row {
   font-weight: normal;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .welcome-to-our {
     font-size: 20px;
   }
@@ -208,13 +208,13 @@ header .row {
 
 @media (min-width: 277px) and (max-width: 800px) {
   .its-nice {
-    font-size: 37px;
+    font-size: 25px;
   }
 }
 
 @media (max-width: 276px) {
   .its-nice {
-    font-size: 25px;
+    font-size: 15px;
   }
 }
 
@@ -236,6 +236,12 @@ header .row {
   border-radius: 4px;
   text-decoration: none;
   transition: all 1s;
+}
+
+@media (max-width: 570px) {
+  .btn {
+    font-size: 10px;
+  }
 }
 
 .btn:hover {
