@@ -98,6 +98,14 @@ header {
   position: relative;
 }
 
+header .logo-menu {
+    @media (max-width: 768px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+}
+
 /* Logo */
 
 .company-logo img {
@@ -110,6 +118,9 @@ header {
 .menu ul {
   padding-top: 51px;
   margin: 0;
+  @media (max-width: 768px) {
+        padding-top: 0;
+  }
 }
 
 .menu li {
